@@ -1,4 +1,5 @@
 import controller.Controller2D;
+import rasterizer.Raster;
 import view.Window;
 
 import javax.swing.*;
@@ -10,6 +11,7 @@ public class Main {
             public void run() {
                 Window window = new Window();
                 new Controller2D(window.getPanel());
+
             }
         });
     }
